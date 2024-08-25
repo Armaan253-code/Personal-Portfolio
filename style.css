@@ -1,0 +1,215 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(82,82,113);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    margin-left: 30px;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    margin: 30px;
+    transition: all 0.3s;
+}
+.menus:hover{
+    color: purple;
+    cursor: pointer;
+    font-size: 21px;
+}
+#touch{
+    padding: 10px 15px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#touch:hover{
+    color: purple;
+}
+.bio{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.mypic{
+    width: 300px;
+    border-radius: 150px;
+    margin-top: 25px;
+    border: 1px solid rgb(255,255,255);
+    box-shadow: 10px 20px 20px rgb(0,0,0,0.3)inset;
+}
+.left{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 1000;
+
+
+}
+#purple{
+    color: rgb(201,12,201);
+}
+#element{
+    color:rgb(201,12,201); 
+}
+p{
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+hr{
+    width: 80%;
+    margin: auto;
+}
+.experience{
+    width: 100%;
+    height: 100vh;
+}
+h1{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+}
+.hr-line{
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin: auto;
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.vr-line{
+    height: 70px;
+    width: 2px;
+    background-color: black;
+   
+}
+.icons{
+    width: 50px;
+    position: relative;
+    top: -50px;
+    left: -21px;
+}
+.vr-role{
+    font-size: 30px;
+    font-weight: 1000;
+    width: 200px;
+    margin-top: 30px;
+    position: relative;
+    left: -50px;
+
+}
+.role{
+    color: rgb(201,12,201);
+}
+.vr-desc{
+    font-size: 14px;
+    width: 200px;
+    margin-top: 20px;
+    position: relative;
+    left: -70px;
+}
+.project{
+    width: 100%;
+    height: 90vh;
+    margin-top: 30px;
+}
+.slider{
+    width: 80%;
+    height: 70vh;
+    background-color: black;
+    overflow: hidden;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 10px 20px 15px (0,0,0,0.4);
+
+}
+.pr-img{
+    width: 100%;
+    object-fit: cover;
+
+}
+.img-container{
+    display: flex;
+   /* transform: translateX(-200%);*/
+   transition: transform 0.7s ease-in-out;
+
+}
+.btn{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.prev{
+    left: 10px;
+
+}
+.next{
+    right: 10px;
+}
+.btn:hover{
+    opacity: 1;
+}
+footer{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    margin-top: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.media{
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+    transition: all 0.3s;
+
+}
+.media:hover{
+    color: rgb(201,12,201);
+    font-size: 32px;
+    
+    
+
+}
+.social{
+    display: flex;
+    gap: 30px;
+}
